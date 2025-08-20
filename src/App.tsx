@@ -22,21 +22,13 @@ function App() {
     }
   };
 
-  // 💡 Features à implémenter :
-  // 1. Corriger toggleTodo pour respecter l'immutabilité
-  // 2. Ajouter un formulaire pour insérer une nouvelle tâche
-  // 3. Ajouter un filtre (Tous | Actifs | Complétés)
-  // 4. Afficher le nombre de tâches restantes
-  // 5. (Bonus) Optimiser le rendu avec React.memo
-  // 6. (Bonus) Extraire la logique dans un hook useTodos
-
   return (
     <div style={{ fontFamily: "sans-serif", padding: 20 }}>
       <h1>Ma Todo List</h1>
 
-      {/* ➡️ Formulaire d'ajout TODO à coder ici */}
+      {/* ➡️ TODO add form to code here */}
 
-      {/* ➡️ Boutons de filtre à coder ici */}
+      {/* ➡️ Filter buttons to code here */}
 
       <ul>
         {todos.map((todo) => (
@@ -57,7 +49,7 @@ function App() {
         ))}
       </ul>
 
-      {/* ➡️ Afficher le nombre de tâches restantes */}
+      {/* ➡️ Display the number of remaining tasks */}
     </div>
   );
 }
